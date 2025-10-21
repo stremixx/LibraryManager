@@ -1,0 +1,68 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+    padding: 25px;
+    background-color: #e9ecef;
+    margin-bottom: 0;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 2.5em;
+}
+
+.library-container {
+    display: grid;
+    /* Responsive grid: columns will adjust based on screen size */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 30px auto; /* Center the container */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.book-card h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.6em;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.book-card p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.book-card p span {
+    font-weight: 600; /* Slightly bolder than normal */
+    color: #333;
+}

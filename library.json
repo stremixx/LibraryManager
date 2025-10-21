@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Harry Potter",
+    "author": "J.K. Rowling",
+    "genre": "Fiction",
+    "releaseDate": "10/21/1998",
+    "isbn": "0-590-35340-3",
+    "pageCount": 309
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "releaseDate": "07/08/1949",
+    "isbn": "0-15-166038-7",
+    "pageCount": 314
+  }
+]
