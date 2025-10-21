@@ -1,18 +1,42 @@
 [
   {
-    "title": "Harry Potter",
+    "title": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
-    "genre": "Fiction",
-    "releaseDate": "10/21/1998",
+    "genre": "Fantasy",
+    "releaseDate": "06/26/1997",
     "isbn": "0-590-35340-3",
     "pageCount": 309
   },
   {
     "title": "1984",
     "author": "George Orwell",
-    "genre": "Fiction",
-    "releaseDate": "07/08/1949",
-    "isbn": "0-15-166038-7",
-    "pageCount": 314
+    "genre": "Dystopian Fiction",
+    "releaseDate": "06/08/1949",
+    "isbn": "978-0-452-28423-4",
+    "pageCount": 328
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic",
+    "releaseDate": "07/11/1960",
+    "isbn": "978-0-06-112008-4",
+    "pageCount": 281
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "Non-Fiction",
+    "releaseDate": "02/10/2015",
+    "isbn": "978-0-06-231609-7",
+    "pageCount": 464
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "releaseDate": "08/01/1965",
+    "isbn": "978-0-441-01359-3",
+    "pageCount": 412
   }
 ]
