@@ -31,7 +31,8 @@ let library = [];
 //fetch the data in this function
 async function loadLibrary() {
     try {
-        const response = await fetch('library.json');
+        // Added a cache-busting query parameter to ensure the latest version is fetched
+        const response = await fetch(`library.json?v=${new Date().getTime()}`);
         if (!response.ok) {
             throw new Error('HTTP error! status: ${response.status}');
         }
